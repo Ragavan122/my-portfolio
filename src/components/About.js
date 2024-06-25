@@ -49,7 +49,7 @@ function About() {
                             my expertise in React developent and gain hands on Experience in building scalable application. </p> */}
 
                             <p className='abop pt-5 ps-5'>I am actively in seeking oppurtunities to grow as a React developer and contribute to impactful
-                                projects.Feel free to reach out via Vijayaragavansr2020 or connect with me on [].I look forward to
+                                projects.Feel free to reach out via Vijayaragavansr2020.I look forward to
                                 exploring potential collabrations and discussing how i can contribute to  your team.
 
                             </p>
