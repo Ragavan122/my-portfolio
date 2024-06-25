@@ -39,8 +39,8 @@ function Header() {
                     <div onClick={changeNav} className='md:hidden sm:inline'>
 
                         {nav ?
-                            <GiHamburgerMenu onClick={changeNav} className=' text-7xl pe-5 mainC' /> :
-                            <FaWindowClose className=' text-7xl pe-5 mainC' />}
+                            <FaWindowClose onClick={changeNav} className=' text-7xl pe-5 mainC' /> :
+                            <GiHamburgerMenu className=' text-7xl pe-5 mainC' />}
 
 
                     </div>
@@ -50,13 +50,14 @@ function Header() {
 
                         <nav className="">
 
-                            <ul className=" cursor-pointer flex flex-col text-3xl gap-5 px-7 py-4 md:hidden">
+                            <ul className='cursor-pointer flex flex-col text-3xl gap-5 px-7 py-4 md:hidden'onClick={changeNav}>
                                 <li> <a href="#">Home </a></li>
                                 <li> <a href="#about">About</a> </li>
                                 <li> <a href="#skills">Skills</a></li>
                                 <li><a href="#contact">Contact</a></li>
                             </ul>
                         </nav>
+
 
 
 

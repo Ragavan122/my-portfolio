@@ -87,10 +87,10 @@ body{
   
 }
 .inps{
-  @apply w-full outline-none px-5 py-3 rounded-xl bg-slate-900 text-xl;
+  @apply w-full outline-none px-5 py-3 rounded-xl bg-slate-900 text-xl active:bg-slate-900;
 }
 .ferr{
-  @apply text-red-600;
+  @apply text-red-600 pb-2;
 }
 
 /* .box{

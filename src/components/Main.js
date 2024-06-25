@@ -20,8 +20,8 @@ function Main() {
 
           <div className="my-det px-2 py-6 flex  md:justify-end  sm:justify-center items-center">
 
-            <h4 className='ps-4 text-3xl font-bold  ps-5'>Hi,It's <span class="mainC text-5xl ">Vijaya Ragavan</span>
-            <h3 className='text-white text-3xl pt-4 '> i'm a<span className='mainC  ps-5'>Front-End Developer </span></h3>
+            <h4 className='ps-4 text-3xl font-bold  ps-5'>Hi,It's <span class="mainC md:text-5xl ">Vijaya Ragavan</span>
+            <h3 className='text-white text-2xl md:text-3xl pt-4 '> i'm a<span className='mainC  ps-5'>Front-End Developer </span></h3>
 
             </h4>             
           
