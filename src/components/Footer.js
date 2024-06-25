@@ -51,8 +51,8 @@ function Footer() {
                             <a href=""><AiFillInstagram className=" soci " /></a>
                             <a href=""><AiFillFacebook className="  soci ps-2" /></a>
                             <a href=""><AiFillYoutube className="  soci ps-2" /></a>
-                            <a href=""><AiFillLinkedin className="  soci ps-2" /></a>
-                            <a href=""><AiFillGithub className="soci ps-2" /></a>
+                            <a href="https://www.linkedin.com/in/vijaya-ragavan-b6b508259/"><AiFillLinkedin className="  soci ps-2" /></a>
+                            <a href="https://github.com/Ragavan122"><AiFillGithub className="soci ps-2" /></a>
                         </div>
                     </div>
 

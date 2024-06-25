@@ -87,7 +87,7 @@ body{
   
 }
 .inps{
-  @apply w-full outline-none px-5 py-3 rounded-xl bg-slate-900 text-xl active:bg-slate-900;
+  @apply w-full outline-none px-5 py-3 mt-1 rounded-xl bg-slate-900 text-xl active:bg-slate-900;
 }
 .ferr{
   @apply text-red-600 pb-2;
