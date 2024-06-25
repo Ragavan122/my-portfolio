@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  @apply bg-black;
+}
+
+
+/* header styling */
+
+.header .head{
+ @apply  bg-gray-900;
+}
+.bgC{
+  @apply bg-black;
+}
+
+.txtC{
+  @apply text-white;
+}
+.mainC{
+  @apply text-orange-600;
+}
+
+.nav li{
+  @apply border-none p-2;
+
+}
+.nav li:hover{
+  @apply text-orange-600;
+}
+
+
+
+/* footer Styling */
+
+.list-item {
+  @apply flex items-center;
+  
+}
+.addp,.addad ,.addem {  @apply  text-2xl text-white;}
+.soci{  @apply  text-4xl text-white;}
+
+.primary-color{
+  @apply text-transparent  bg-clip-text bg-gradient-to-r from-orange-400 to-pink-600 inline-block; 
+}
+
+.txtS{
+  @apply text-white text-xl;
+
+}
+
+.soci{
+  @apply text-white text-4xl ;
+}
+
+.soci:hover{
+  @apply text-orange-600;
+}
+
+
+
+/* Skills page styling */
+
+.skills .icons{
+  @apply text-7xl text-orange-600;;
+
+}
+
+.iconh{
+  @apply pt-2 pb-5 text-xl text-white ;
+}
+.skills .icons:hover{
+  @apply text-black;
+
+}
+
+.box{
+  @apply flex flex-col  justify-center items-center  bg-gray-900  rounded-lg  px-4 py-9  ;
+}
+/*  contact page styling   */
+
+.labs{
+  @apply pb-2 text-2xl pt-2 w-full ;
+  
+}
+.inps{
+  @apply w-full outline-none px-5 py-3 rounded-xl bg-slate-900 text-xl;
+}
+.ferr{
+  @apply text-red-600;
+}
+
+/* .box{
+  @apply bg-black ;
+} */
+
+
+.sbtn{
+
+  @apply bg-orange-600 text-transparent text-black p-3 rounded-3xl text-xl font-serif ; 
+
+}
