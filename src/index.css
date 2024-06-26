@@ -103,3 +103,10 @@ body{
   @apply bg-orange-600 text-transparent text-black p-3 rounded-3xl text-xl font-serif ; 
 
 }
+
+
+/* project page styling */
+
+.project .p-item{
+ @apply mt-10 bg-slate-900 rounded-xl flex flex-col items-center justify-center;
+}

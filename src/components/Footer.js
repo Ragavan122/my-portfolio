@@ -23,7 +23,9 @@ function Footer() {
                             <li className="text-2xl txtC pt-6"><a href="#">Home</a> </li>
                             <li className="text-2xl txtC pt-3" ><a href="about">About</a></li>
                             <li className="text-2xl txtC pt-3" ><a href="skills">Skills</a></li>
+                            <li className="text-2xl txtC pt-3"><a href="#project">Project</a></li>
                             <li className="text-2xl txtC pt-3"><a href="contact">Contact</a></li>
+                            
                         </ul>
                     </div>
 

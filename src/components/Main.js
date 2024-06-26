@@ -1,5 +1,8 @@
 import React from 'react';
-import mypic from '../pictures/myPic.png';
+import mypic2 from '../pictures/myPic.png';
+import mypic1 from '../pictures/ragavan.jpg';
+import dev from '../pictures/developer.png';
+
 import Aos from 'aos'
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -30,7 +33,7 @@ function Main() {
 
           <div className="my-image flex justify-center items-center" data-aos="fade-left" data-aos-duration="400">
 
-            <img src={mypic} alt="" />
+          <img src={dev} alt=""className='w-[200px] sm:w-[400px] ' />
 
           </div>
 

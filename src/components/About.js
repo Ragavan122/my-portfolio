@@ -1,4 +1,6 @@
-import mypic from '../pictures/myPic.png';
+import mypic2 from '../pictures/myPic.png';
+import mypic1 from '../pictures/ragavan.jpg';
+
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -27,9 +29,9 @@ function About() {
                 <div className="grid md:grid-cols-2 bg-black text-white" data-aos="fade-up" data-aos-duration="500">
 
 
-                    <div className="my-img pt-4">
+                    <div className="my-img pt-4 flex  justify-center items-center">
 
-                        <img src={mypic} alt="" />
+                        <img src={mypic1} alt=""className='w-[200px] sm:w-[400px] ' />
 
                     </div>
 

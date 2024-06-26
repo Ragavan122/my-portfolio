@@ -12,10 +12,7 @@ const schema = yup.object().shape({
     email: yup.string().email().required('required field'),
     phoneNo: yup.number("enter valid phone no").min(10, 'min10').required('phne no required'),
     subject: yup.string(),
-    msg: yup.string(),
-
-
-
+    msg: yup.string()
 
 });
 
@@ -94,14 +91,6 @@ function Contact() {
                     </div>
                 </div>
             </form>
-
-
-
-
-
-
-
-
 
 
 
